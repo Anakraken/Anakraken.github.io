@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 body{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+
   padding: 0;
   margin: 0;
   margin-top: 40px;
@@ -14,7 +16,9 @@ img {
 }
 
 h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
   color: #1C486C;
+  font-size: 30px;
 }
 
 .container {
@@ -57,4 +61,37 @@ a {
   cursor: pointer;
   text-decoration: underline;
   color: #43abe7;
+}
+
+.promo {
+  margin-top: 30px;
+  background-color: #1C496A;
+  padding: 60px 0;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.promo h2 {
+  font-size: 35px;
+  color: #fff;
+}     
+.promo h3 {
+  font-size: 25px;
+}           
+
+.underline {
+  text-decoration: underline;
+}
+
+.clausula{
+  font-size: 12px;
+}
+.promo_box{
+  width: 280px;
+  margin: 0 auto;
+  border: 2px solid #FFDF2B;
+}
+
+.yellow {
+  color: #FFDF2B;
 }
